@@ -1,7 +1,7 @@
 # Author: Jordan Edmunds, Ph.D. Student, UC Berkeley
 # Contact: jordan.e@berkeley.edu
 # Creation Date: 11/01/2019
-#
+
 # TODO:
 # Fix netlist parser so it can handle zero layers and assume the input and output layers are free space
 # (Eventually, maybe never):
@@ -12,8 +12,7 @@ import scipy as sp
 import scipy.linalg
 import sys
 from core.matrices import *
-from netlist.netlist_parser import *
-import matplotlib.pyplot as plt
+
 
 # 1. The class NetlistParser parses a netlist and turns everything into a "Mask" or "Field" object.
 # The masks and field are returned so that they are sorted in ascending order with
